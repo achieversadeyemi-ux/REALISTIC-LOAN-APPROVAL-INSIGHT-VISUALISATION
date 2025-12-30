@@ -1,15 +1,13 @@
-REALISTIC LOAN APPROVAL INSIGHT
-<img width="731" height="726" alt="Image" src="https://github.com/user-attachments/assets/8987c509-73bf-43bf-83eb-65c9a0c949c5" />
-📊 Loan Approval Insight Visualization Project
- Project Overview
+# REALISTIC LOAN APPROVAL INSIGHT 
+ ## Project Overview
 This project analyzes loan application data to uncover key factors influencing loan approval and rejection decisions. Using data visualization techniques, the dashboard provides actionable insights into applicant behavior, financial profiles, and approval trends to support better decision-making.
 The project was built as part of my data analysis learning journey and demonstrates my ability to transform raw data into meaningful business insights.
-🎯 Objectives
+### Objectives
 Analyze approved vs rejected loan applications
 Identify factors influencing loan approval (Income, Credit Score, Loan Amount, Employment)
 Visualize trends using interactive dashboards
 Support realistic loan approval decision-making
-📂 Dataset Description
+ ## Dataset Description
 The dataset contains anonymized loan application records with the following key fields:
 Applicant ID
 Loan Status (Approved / Rejected)
@@ -18,11 +16,11 @@ Credit Score
 Loan Amount
 Employment Length
 Year
-🛠 Tools & Technologies Used
+## Tools & Technologies Used
 Microsoft Power BI – Data modeling & interactive dashboards
 Microsoft Excel – Data cleaning & pivot analysis
 GitHub – Version control & project documentation
-📈 Key Visualizations
+## Key Visualizations
 Approved vs Rejected Loans (Bar Chart)
 Loan Approval Trend by Year
 Income vs Loan Status
@@ -32,17 +30,17 @@ Total Applications
 Total Approved Loans
 Total Loan Amount
 Average Annual Income
-🔍 Key Insights
+## Key Insights
 Applicants with higher credit scores and stable income had higher approval rates
 Large loan amounts showed a higher rejection tendency
 Employment length positively influenced loan approval
 Approval rates varied significantly across years
-📊 Dashboard Features
+## Dashboard Features
 Interactive slicers (Year, Loan Status)
 Dynamic KPIs
 Clean and professional layout
 Business-focused storytelling
-🚀 Project Outcome
+## Project Outcome
 This project strengthened my skills in:
 Data cleaning & transformation
 Pivot table analysis
