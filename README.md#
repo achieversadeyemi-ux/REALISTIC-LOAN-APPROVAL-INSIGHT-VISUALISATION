@@ -1,118 +1,54 @@
-<!DOCTYPE html><html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Student Portfolio | Achievers Adeyemi</title>
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 0;
-      background: #f4f6f8;
-      color: #333;
-      line-height: 1.6;
-    }
-    header {
-      background: #0a3d62;
-      color: #fff;
-      padding: 40px 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      margin-top: 10px;
-      font-size: 1.1rem;
-    }
-    nav {
-      background: #ffffff;
-      padding: 10px 0;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      position: sticky;
-      top: 0;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      margin: 0;
-      padding: 0;
-    }
-    nav ul li {
-      margin: 0 15px;
-    }
-    nav ul li a {
-      text-decoration: none;
-      color: #0a3d62;
-      font-weight: bold;
-    }
-    section {
-      max-width: 1000px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-    section h2 {
-      color: #0a3d62;
-      border-bottom: 2px solid #0a3d62;
-      display: inline-block;
-      padding-bottom: 5px;
-    }
-    .card {
-      background: #ffffff;
-      padding: 20px;
-      margin: 20px 0;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    }
-    .skills-list {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 15px;
-    }
-    .skills-list div {
-      background: #eaf2f8;
-      padding: 15px;
-      border-radius: 6px;
-      text-align: center;
-      font-weight: bold;
-    }
-    footer {
-      background: #0a3d62;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-    }
-    footer a {
-      color: #ffffff;
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>  <header>
-    <h1>Achievers Adeyemi</h1>
-    <p>Student | Aspiring Data Analyst | ICT & Self-Development Enthusiast</p>
-  </header>  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>  <section id="about">
-    <h2>About Me</h2>
-    <div class="card">
-      <p>
-        I am a motivated student with a strong interest in Information and Communication Technology (ICT), data analysis, and self-development. I enjoy working on practical projects that solve real-world problems and continuously improving my technical and analytical skills.
-      </p>
-      <p>
-        My goal is to build a solid professional portfolio and grow into a competent freelancer and project manager who delivers value-driven solutions.
-      </p>
-    </div>
-  </section>  <section id="skills">
-    <h2>Skills</h2>
-    <div class="card skills-list">
-      <div>Microsoft Excel (Pivot Tables, Dashboards)</div>
-      <div>
+#REALISTIC LOAN APPROVAL INSIGHT
+📊 Loan Approval Insight Visualization Project
+## Project Overview
+This project analyzes loan application data to uncover key factors influencing loan approval and rejection decisions. Using data visualization techniques, the dashboard provides actionable insights into applicant behavior, financial profiles, and approval trends to support better decision-making.
+The project was built as part of my data analysis learning journey and demonstrates my ability to transform raw data into meaningful business insights.
+🎯 Objectives
+Analyze approved vs rejected loan applications
+Identify factors influencing loan approval (Income, Credit Score, Loan Amount, Employment)
+Visualize trends using interactive dashboards
+Support realistic loan approval decision-making
+📂 Dataset Description
+The dataset contains anonymized loan application records with the following key fields:
+Applicant ID
+Loan Status (Approved / Rejected)
+Annual Income
+Credit Score
+Loan Amount
+Employment Length
+Year
+🛠 Tools & Technologies Used
+Microsoft Power BI – Data modeling & interactive dashboards
+Microsoft Excel – Data cleaning & pivot analysis
+GitHub – Version control & project documentation
+📈 Key Visualizations
+Approved vs Rejected Loans (Bar Chart)
+Loan Approval Trend by Year
+Income vs Loan Status
+Credit Score Impact on Loan Approval
+KPI Cards:
+Total Applications
+Total Approved Loans
+Total Loan Amount
+Average Annual Income
+🔍 Key Insights
+Applicants with higher credit scores and stable income had higher approval rates
+Large loan amounts showed a higher rejection tendency
+Employment length positively influenced loan approval
+Approval rates varied significantly across years
+📊 Dashboard Features
+Interactive slicers (Year, Loan Status)
+Dynamic KPIs
+Clean and professional layout
+Business-focused storytelling
+🚀 Project Outcome
+This project strengthened my skills in:
+Data cleaning & transformation
+Pivot table analysis
+Power BI visualization & storytelling
+Business insight communication
+👤 Author
+Achievers Adeyemi
+Aspiring Data Analyst | Self-Development Enthusiast
+📍 Nigeria
+📬 Contact+2348035567631 / achieversadeyemi@gmail.com
