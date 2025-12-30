@@ -1,62 +1,118 @@
-# REALISTIC-LOAN-APPROVAL-INSIGHT-VISUALISATION
-##I am a data analytics student with a strong interest in transforming raw financial data into meaningful insights that support informed decision-making. Through practical projects, I apply analytical thinking, visualization tools, and storytelling techniques to solve real-world business problems—particularly in finance and lending systems.
-🎯 Project Overview
-This project focuses on analyzing loan approval patterns using realistic financial and demographic data. The goal is to identify the key factors that influence whether a loan application is approved or rejected, and to present these insights through clear, interactive visualizations.
-The dashboard simulates how banks and financial institutions evaluate loan applications to minimize risk and improve approval accuracy.
-📂 Dataset Description
-The dataset used in this project includes the following variables:
-Applicant ID
-Loan Status (Approved / Rejected)
-Annual Income
-Credit Score
-Loan Amount
-Total Credit
-Employment Duration (Years Employed)
-Year
-These variables reflect common criteria used in real-world loan approval systems.
-🔍 Key Analytical Questions Answered
-What is the overall loan approval rate?
-How does credit score affect loan approval decisions?
-What is the relationship between annual income and loan approval?
-Does a higher loan amount reduce approval chances?
-How does employment duration influence approval outcomes?
-What trends exist in loan approvals over time?
-📈 Visualization & Dashboard Features
-KPI Cards
-Total Loan Applications
-Total Approved Loans
-Total Rejected Loans
-Average Credit Score
-Total Loan Amount
-Interactive Charts
-Approved vs Rejected Loans (Bar Chart)
-Credit Score vs Loan Status (Column Chart)
-Annual Income vs Approval Rate (Bar Chart)
-Loan Amount Distribution (Histogram / Column Chart)
-Yearly Loan Approval Trend (Line Chart)
-Slicers for Interactivity
-Loan Status
-Year
-Credit Score Range
-These elements allow users to dynamically explore loan approval patterns.
-💡 Key Insights Discovered
-Applicants with higher credit scores have significantly higher approval rates.
-Stable and higher annual income strongly increases loan approval probability.
-Large loan amounts are more likely to be rejected when income or credit score is low.
-Longer employment duration improves approval outcomes.
-Loan approval trends vary across different years, indicating policy or market changes.
-🛠 Tools & Technologies Used
-Microsoft Power BI
-Microsoft Excel (Pivot Tables & Charts)
-Data Cleaning & Transformation
-Data Visualization Techniques
-🚀 Conclusion
-This project demonstrates how data visualization can provide realistic insights into loan approval decisions. By combining financial indicators with interactive dashboards, the analysis supports better risk assessment and decision-making in lending institutions.
-🔗 Future Improvements
-Include geographic analysis (Country/State level)
-Add debt-to-income (DTI) ratio for deeper risk evaluation
-Implement predictive modeling for loan approval
-You can contact me via my (achieversadeyemi@gmail.com)
-https://www.linkedin.com/posts/adeyemi-abass-a801922a or 
-https://www.facebook.com/share/1D49k5mr1a/
-Facebook ,or WhatsApp+2348035567631
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Portfolio | Achievers Adeyemi</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #0a3d62;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
+    nav {
+      background: #ffffff;
+      padding: 10px 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #0a3d62;
+      font-weight: bold;
+    }
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section h2 {
+      color: #0a3d62;
+      border-bottom: 2px solid #0a3d62;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .card {
+      background: #ffffff;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .skills-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .skills-list div {
+      background: #eaf2f8;
+      padding: 15px;
+      border-radius: 6px;
+      text-align: center;
+      font-weight: bold;
+    }
+    footer {
+      background: #0a3d62;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>  <header>
+    <h1>Achievers Adeyemi</h1>
+    <p>Student | Aspiring Data Analyst | ICT & Self-Development Enthusiast</p>
+  </header>  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        I am a motivated student with a strong interest in Information and Communication Technology (ICT), data analysis, and self-development. I enjoy working on practical projects that solve real-world problems and continuously improving my technical and analytical skills.
+      </p>
+      <p>
+        My goal is to build a solid professional portfolio and grow into a competent freelancer and project manager who delivers value-driven solutions.
+      </p>
+    </div>
+  </section>  <section id="skills">
+    <h2>Skills</h2>
+    <div class="card skills-list">
+      <div>Microsoft Excel (Pivot Tables, Dashboards)</div>
+      <div>
