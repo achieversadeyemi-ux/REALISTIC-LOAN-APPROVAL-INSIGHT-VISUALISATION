@@ -1,123 +1,59 @@
-# REALISTIC LOAN APPROVAL INSIGHT VISUALISATION
-<img width="731" height="726" alt="Image" src="https://github.com/user-attachments/assets/0d6d98b0-035d-4025-b4ef-620b83e6d6a9" />
-A clear, data-driven project that explores loan approval data and produces interpretable visualizations and insights to help lenders and applicants understand the factors that influence loan decisions.
-## Table of contents
-- [Project overview](#project-overview)
-- [Motivation](#motivation)
-- [What this repo contains](#what-this-repo-contains)
-- [Demo / Screenshots](#demo--screenshots)
-- [Key features](#key-features)
-- [Tools & platforms](#tools--platforms)
-- [Installation/setup (general)](#installation--setup-general)
-- [Usage (general)](#usage-general)
-- [Data](#data)
-- [Approach & methodology](#approach--methodology)
-- [Interpreting the visualizations](#interpreting-the-visualizations)
-- [Results & insights](#results--insights)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-## Project overview
-This project performs exploratory analysis, modelling, and visualization on a realistic loan-approval dataset to produce actionable insights about which applicant and loan features most influence approval decisions. The visualizations are designed to be interpretable for both technical and non-technical stakeholders.
-## Motivation
-Loan decisions can be opaque. By combining EDA, predictive baselines, and thoughtfully designed visualizations, this project aims to:
-- Highlight the dominant factors affecting approvals
-- Help lenders detect bias or unexpected patterns
-- Empower applicants to know which features to improve
 
-## What this repo contains
-- Visual assets used in the report and README:
-  - `SCREENSHORT REALISTIC LOAN APPROVAL Screenshot 2025-12-29 114422.png`
-  - `INTERPRETING REALISTIC LOAN APPROVAL INSIGHT VISUALIZATION.jfif`
-  - `UNLOCKING LOAN APPROVAL INSIGHTS.jfif`
-  - `1739552970880-158309027-Which online loan app is safe.png`
-- (Possible) analysis notebooks or scripts in the language/environment of choice
-- This README with usage and interpretation guidance
-
-## Demo / Screenshots
-Preview images (open from repository):
-- ![Project screenshot](./SCREENSHORT%20REALISTIC%20LOAN%20APPROVAL%20Screenshot%202025-12-29%20114422.png)
-- ![Interpreting visualization](./INTERPRETING%20REALISTIC%20LOAN%20APPROVAL%20INSIGHT%20VISUALIZATION.jfif)
-- ![Unlocking insights](./UNLOCKING%20LOAN%20APPROVAL%20INSIGHTS.jfif)
-- ![Which loan app is safe](./1739552970880-158309027-Which%20online%20loan%20app%20is%20safe.png)
-
-## Key features
-- Exploratory data analysis (missingness, distributions, correlations)
-- Visualizations showing feature influence on loan outcomes
-- Interpretable summary charts (e.g., approval rate vs income, credit history, loan amount)
-- Baseline predictive models (concepts and evaluation) — implementable in the toolset you prefer
-- Considerations for fairness and bias detection
-
-## Tools & platforms
-This project is tool-agnostic; pick the environment you prefer:
-- Data tools: SQL, Excel/Sheets, R, or any data-processing environment
-- Visualization: Tableau, Power BI, D3.js, Plotly.js, or static plotting tools
-- Modeling: any ML toolkit or platform (e.g., caret, Weka, ML libraries available in your environment)
-- Deployment / dashboards: web frameworks, BI platforms, or containerized services (Docker)
-
-## Installation / setup (general)
-1. Clone the repo:
-   git clone https://github.com/achieversadeyemi-ux/REALISTIC-LOAN-APPROVAL-INSIGHT-VISUALISATION.git
-2. Inspect the repository files to find analysis scripts/notebooks and any environment-specific README or requirements.
-3. Use the appropriate runtime for the scripts/notebooks you intend to run:
-   - For R scripts: use RStudio or an R environment and install required packages.
-   - For JavaScript visualizations: install dependencies with your package manager (npm/yarn) and run the project as documented.
-   - For BI dashboards: load the provided data/artifacts into your BI tool.
-4. If a Dockerfile or container instructions exist, you can run the project consistently via containers.
-
-## Usage (general)
-- Browse the included images for a quick overview.
-- Open notebooks or analysis scripts in the environment they were written for (RStudio, a JS dev server, etc.).
-- If an interactive dashboard or app is included, follow its README or run the provided start command for that environment.
-- Typical workflow:
-  1. Load dataset (e.g., `data/loan_data.csv`)
-  2. Run EDA: check distributions, missing data, correlations
-  3. Prepare features (encoding, scaling) in your chosen toolset
-  4. Train/evaluate models with your preferred libraries or platforms
-  5. Generate final visualizations and produce interpretive notes
-
-## Data
-- Expected location (if present): `data/loan_data.csv` or similar CSV file in a `data/` folder
-- Typical columns:
-  - Applicant income, Coapplicant income
-  - Loan amount, Loan amount term
-  - Credit history
-  - Gender, Married, Dependents
-  - Education, Self-employed
-  - Property area
-  - Loan_Status (target)
-- If the dataset is not included, add instructions or a link to the data source used.
-
-## Approach & methodology
-1. Exploratory Data Analysis to identify key distributions and relationships.
-2. Feature engineering:
-   - Handle missing values
-   - Encode categorical features
-   - Normalize or scale variables if required by the chosen method
-3. Modeling:
-   - Train baseline classifiers and evaluate using cross-validation and relevant metrics
-4. Visualization & interpretation:
-   - Feature influence plots
-   - Approval-rate breakdowns by group
-   - Confusion matrices and ROC-like analysis where applicable
-
-## Interpreting the visualizations
-- Use influence/importance plots and partial-dependence-style graphics to identify which variables most affect approvals.
-- Compare approval rates across demographic groups to surface potential biases.
-- The included images (INTERPRETING..., UNLOCKING...) show examples of how to read visualizations and translate them into recommendations.
-
-## Results & insights (example)
-- Applicants with a consistent positive credit history typically show much higher approval rates.
-- Higher applicant income and lower loan-to-income ratio correlate with higher approval probability.
-- Different property areas and education levels may show distinct approval patterns — useful for targeted policies and applicant guidance.
-Note: Replace these example assertions with actual findings from your analyses.
-
-## Contributing
-Contributions are welcome!
-- Open an issue to discuss major changes.
-- Submit pull requests for bug fixes, new visualizations, or clearer documentation.
-- Please include reproducible steps and example datasets when applicable.
-
-## Contact
-Maintainer: achieversadeyemi-ux
-
+#📊 Loan Approval Insight Visualization
+Power BI & Excel Data Analysis Project
+## 🔍 Project Overview
+This project provides a data-driven analysis of loan approval decisions using Power BI and Excel.
+It explores how key financial factors such as credit score, income, employment status, and loan amount influence whether a loan is approved or rejected.
+The dashboard is interactive, visually intuitive, and business-focused, making it useful for:
+Financial institutions
+Credit analysts
+Business decision-makers
+Data analysis learners
+##🎯 Objectives
+✔ Analyze loan approval vs rejection rates
+✔ Identify key factors influencing loan approval
+✔ Visualize patterns and trends using charts and slicers
+✔ Build an interactive dashboard for decision support
+##🧾 Dataset Description
+The dataset contains the following key fields:
+Applicant ID
+Loan Status (Approved / Rejected)
+Annual Income
+Credit Score
+Loan Amount
+Employment Duration
+Total Credit
+Data was cleaned and transformed before visualization.
+## 📈 Dashboard Features
+📌 Total Loans
+📌 Approved vs Rejected Loans
+📌 Average Credit Score
+📌 Total Loan Amount
+📌 Annual Income Analysis
+📌 Interactive Slicers
+📌 Clear KPIs and Charts
+## 🛠 Tools & Technologies
+Microsoft Power BI
+Microsoft Excel
+Data Cleaning & Transformation
+Pivot Tables & Charts
+Interactive Slicers
+## 📊 Key Insights
+Applicants with higher credit scores have a significantly higher approval rate
+Stable income and longer employment duration improve approval chances
+Large loan amounts combined with low income increase rejection risk
+##🚀 How to Use This Project
+Download or clone the repository
+Open the Power BI (.pbix) or Excel file
+Use the slicers to filter by loan status and financial attributes
+Explore trends and insights interactively
+##👤 Author
+Achievers Adeyemi
+📌 Aspiring Data Analyst | Business-Focused Insights
+📌 Achievers Biz Communications
+⭐ Feedback & Contributions
+If you find this project helpful:
+⭐ Star the repository
+📝 Share feedback
+🤝 Connect with me for collaboration
+✅ achieversadeyemi@gmail.com
